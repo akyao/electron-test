@@ -3,17 +3,20 @@
 npmとかいれとくこと
 
 sass と electron
-> sudo gem install -n /usr/local/bin sass
-> sudo npm install -g electron-prebuilt
 
-> mkdir electron-test
-> cd electron-test
-> npm init
-> #npm install electron-prebuilt --save-dev
 
-> npm install grunt-contrib-sass --save-dev
-> npm install grunt-contrib-cssmin --save-dev
-> npm install grunt-contrib-watch --save-dev
+sudo gem install -n /usr/local/bin sass
+sudo npm install -g electron-prebuilt
+
+mkdir electron-test
+cd electron-test
+npm init
+#npm install electron-prebuilt --save-dev
+
+npm install grunt-contrib-sass --save-dev
+npm install grunt-contrib-cssmin --save-dev
+npm install grunt-contrib-watch --save-dev
+
 
 # このプロジェクトをcheckout してから使う場合
 
